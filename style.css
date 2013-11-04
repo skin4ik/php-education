@@ -1,0 +1,238 @@
+body {
+    font-family: Verdana;
+    font-size: 11px;
+    margin: 0 auto;
+    width: 800px;
+    background: #fff;
+
+}
+body a {
+    color: #2B587A;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.mainLayout {
+    width: 100%;
+    background: #fff;
+}
+#mainHeader {
+    height: 40px;
+    background: #4281aa;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    overflow: hidden;
+    color: #ffffff;
+}
+.logo {
+    float: left;
+    background-image: url("http://mobile-geek.ru/templates/MobileGeek/images/vk-logo-white-on-blue-min.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 20px;
+    padding: 10px;
+    background-position: left;
+}
+.search {
+    float: left;
+    padding: 7px;
+}
+.search input {
+    width: 300px;
+    border-radius: 15px;
+    outline:none;
+    height: 10px;
+    color: #4281aa;
+    padding: 5px;
+}
+.topNav {
+    float: right;
+    padding: 0px;
+    font-weight: bold;
+    height: 100%;
+}
+.topNav a {
+    color: #ffffff;
+}
+.topNav a:hover {
+    text-decoration: none;
+}
+.topNav li:hover {
+    background: #3a698d;;
+}
+.topNav ul {
+    margin: 0;
+    height: 100%;
+}
+.topNav li {
+    float: left;
+    padding: 12px 6px 0px 6px;
+    list-style-type: none;
+    height: 100%;
+}
+.rightNav {
+    width: 130px;
+    float: left;
+}
+.rightNav ul li:nth-child(9) {
+    border-bottom: 1px solid #d6d5d7;
+    padding-bottom: 10px;
+}
+.rightNav ul li:nth-child(10) {
+    padding-top: 5px;
+}
+.rightNav li {
+    list-style-type: none;
+    padding-bottom: 8px;
+}
+.rightNav ul {
+    padding-left: 10px;
+    color: #2B587A;
+}
+.rightNav a:hover {
+    text-decoration: none;
+    padding: 4px;
+    border-radius: 3px;
+    margin: -4px;
+    width: 100px;
+    background: #d9e5f2;
+}
+.listNews {
+    float: left;
+    width: 646px;
+    border-left: 1px solid #d6d5d7;
+    border-right: 1px solid #d6d5d7;
+    margin: 0px 10px;
+    color: #2B587A;
+}
+#firstNewsNav {
+    height: 15px;
+    border-bottom: 1px solid #2B587A;
+    padding-bottom: 3px;
+}
+#firstNewsNav ul {
+    margin: 20px 0px 20px -20px;
+}
+#firstNewsNav a:hover {
+    text-decoration: none;
+    padding: 4px;
+    border-radius: 3px;
+    margin: -4px;
+    width: 100px;
+    background: #d9e5f2;
+}
+#firstNewsNav ul li {
+    float: left;
+    padding-right: 15px;
+    list-style-type: none;
+}
+#firstNewsNav ul li:last-child {
+    float: right;
+    padding-right: 15px;
+    height: 20px;
+}
+#secondNewsNav {
+    height: 50px;
+    background: #f7f7f7;
+    border-bottom: 1px solid #d6d5d7;
+}
+#secondNewsNav ul li {
+    float: left;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 50px;
+    padding-right: 30px;
+}
+#secondNewsNav a:hover {
+    text-decoration: none;
+    padding: 4px;
+    border-radius: 3px;
+    margin: -4px;
+    width: 100px;
+    background: #d9e5f2;
+}
+#secondNewsNav ul {
+    margin: 0px;
+}
+#secondNewsNav ul li:first-child {
+    clear: left;
+    font-size: 20px;
+}
+#thirdNewsNav {
+    float: left;
+    width: 100%;
+    height: 20px;
+    border-bottom: 1px solid #d6d5d7;
+    padding-bottom: 7px;
+}
+#thirdNewsNav ul li {
+    float: left;
+    list-style-type: none;
+}
+#thirdNewsNav ul {
+    margin: 10px 10px 10px -25px;
+    font-size: 11px;
+}
+#thirdNewsNav ul li:first-child {
+    float: left;
+    padding-right: 20px;
+    font-weight: bold;
+}
+#thirdNewsNav ul li:last-child {
+    float: right;
+}
+.post {
+    clear: both;
+    width: 98%;
+    margin: 10px 0px 10px 10px;
+    float: left;
+    border-bottom: 1px solid #d6d5d7;
+}
+.postImage {
+    width: 55px;
+    height: 100%;
+    float: left;
+}
+.postImage img {
+    width: 55px;
+    height: 55px;
+}
+.postInfo {
+    float: left;
+    margin: 0px;
+    padding: 0px 20px;
+    width: 84%;
+
+}
+.postInfo h4 {
+    margin: 0px;
+    margin-bottom: 10px;
+}
+.postText {
+    color: #000;
+
+}
+.postText img {
+    width: 540px;
+    margin: 20px 0px;
+}
+footer {
+    width: 595px;
+    float: left;
+    padding: 0px 35px;
+    margin-top: -15px;
+}
+footer ul li {
+    float: left;
+    padding-right: 15px;
+    list-style-type: none;
+}
+footer ul li:last-child {
+    float: right;
+    padding-right: 15px;
+    list-style-type: none;
+    padding-bottom: 5px;
+}
